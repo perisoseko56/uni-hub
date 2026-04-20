@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { LoginForm } from '../LoginForm';
-import { SignUpEmail } from '../SignUpEmail';
-import { OTPVerification } from '../OTPVerification';
-import { CreateProfile } from '../CreateProfile';
+import { LoginForm } from '../../components/auth/LoginForm';
+import { SignUpEmail } from './SignUpEmail';
+import { OTPVerification } from './OTPVerification';
+import { CreateProfile } from './CreateProfile';
 import { ProfilePage } from '../../pages/profile/ProfilePage';
 type Step =
 'login' |
