@@ -1,11 +1,10 @@
 import React from 'react';
-import AuthLayout from '../../components/layout/AuthLayout';
 import OTPVerification from '../../components/auth/OTPVerification';
 
 export default function VerifyOTPPage() {
   return (
-    <AuthLayout>
+    <div className="min-h-screen flex items-center justify-center p-4">
       <OTPVerification />
-    </AuthLayout>
+    </div>
   );
 }
