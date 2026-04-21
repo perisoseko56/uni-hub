@@ -19,7 +19,7 @@ export function LoginForm({ onNavigate, onLogin }: LoginFormProps) {
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold text-green-700 mb-2">Login</h2>
         <p className="text-slate-500 text-sm">
-          Welcome back to your student portal
+          Welcome back to Uni-Hub
         </p>
       </div>
 
